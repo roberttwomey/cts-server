@@ -14,7 +14,8 @@ postData = {
 
 //the config for our HTTP POST request
 postConfig = {
-    url:'http://localhost:8090/form',
+    // url:'http://localhost:8090/form',
+    url:'http://54.219.136.88:80/form',
     form: postData
 };
 

@@ -26,7 +26,8 @@ app.post('/form',function (req, res) {
 	res.end(requestAsJson);
 });
 
-let PORTNUM = 8090;
+// let PORTNUM = 8090;
+let PORTNUM = 80;
 //wait for a connection
 app.listen(PORTNUM, function () {
   console.log('POST test server is running on port '+PORTNUM);
